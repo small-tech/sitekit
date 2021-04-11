@@ -4,7 +4,7 @@ This template will help get you started developing with [SvelteKit](https://kit.
 
 It’s based on the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template.
 
-__Note:__ if you want to use vanilla Vite + Svelte instead of SvelteKit, check out the [site-vite-svelte](https://github.com/small-tech/site-vite-svelte) template instead. This template also has the advantage, currently, of running the dev server on https://localhost:444 instead of http://localhost:3000. We can’t do this with SvelteKit’s dev server (yet?) as it doesn’t currently run correctly with HMR over https and there isn’t a way to set the `server` property directly on it its Vite instance.
+__Note:__ if you want to use vanilla Vite + Svelte instead of SvelteKit, check out the [site-vite-svelte](https://github.com/small-tech/site-vite-svelte) template instead. This template also has the advantage, currently, of running the dev server on https://localhost:444 instead of http://localhost:3000. We can’t do that with SvelteKit’s dev server (yet?) as [it doesn’t currently run correctly with HMR over https](https://github.com/sveltejs/kit/issues/844) and [there isn’t a way to set the `server` property directly on its Vite instance](https://github.com/sveltejs/kit/issues/844#issuecomment-817287992).
 
 ## Why?
 
